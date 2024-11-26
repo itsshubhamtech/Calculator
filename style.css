@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(209, 140, 140);
+}
+
+h2{
+    text-transform: uppercase;
+    color: rgb(82, 179, 49);
+    font-size: 28px;
+}
+
+.main{
+    text-align: center;
+    height: 600px;
+    width: 500px;
+    border: 1px solid red;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    padding-right: 7px;
+    margin-top: 5vh;
+    background-color: #3C3D37;
+    user-select: none;
+}
+
+#output{
+    width: 95%;
+    height: 10vh;
+    font-size: 40px;
+    outline: none;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+
+.buttons{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none; /* Hides the spinner */
+    margin: 0; /* Removes default margin */
+}
+
+.box{
+    height: 23%;
+    width: 100%;
+    /* border: 1px solid pink;
+    background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.box button{
+    height: 100%;
+    width: 23%;
+    font-size: 60px;
+    background-color: #ECDFCC;
+}
